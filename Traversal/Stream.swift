@@ -28,7 +28,9 @@ extension Stream {
 		recur = { reducible, initial, combine in
 			switch initial {
 			case Nil: return Nil
-			case let Cons(x, _): return Cons(x, reducible.reduceLeft(recur)(reducible, Nil, combine))
+			case let Cons(x, _):
+				let y = { reducible.reduceLeft(recur)(reducible, Nil, combine) }
+				return Cons(x, y())
 			}
 		}
 
