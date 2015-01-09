@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB5CF851A5F0C5000EAF7FE /* ReducibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461ED7B19E0923800DEF5AD /* ReducibleType.swift */; };
+		BFB5CF861A5F0C5000EAF7FE /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A1701A02B3FE004D8A26 /* Map.swift */; };
+		BFB5CF871A5F0C5000EAF7FE /* Join.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B60E51A0D43670009D607 /* Join.swift */; };
+		BFB5CF881A5F0C5000EAF7FE /* FlattenMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A1941A0D0719004D8A26 /* FlattenMap.swift */; };
+		BFB5CF891A5F0C5000EAF7FE /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D3E3291A1EBA70001A9ED4 /* Sequence.swift */; };
+		BFB5CF8A1A5F0C5000EAF7FE /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A18E1A0D0133004D8A26 /* Filter.swift */; };
+		BFB5CF8B1A5F0C5000EAF7FE /* ReducerOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A19A1A0D1B44004D8A26 /* ReducerOf.swift */; };
+		BFB5CF8C1A5F0C5000EAF7FE /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A1981A0D1A9C004D8A26 /* Concat.swift */; };
+		BFB5CF8D1A5F0C5000EAF7FE /* Appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C9A11C1A34E26D009C6CD3 /* Appending.swift */; };
+		BFB5CF8E1A5F0C5000EAF7FE /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D462EB9819E4C8F700ADAAC9 /* Stream.swift */; };
+		BFB5CF8F1A5F0C5000EAF7FE /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A19F1A0D2F0F004D8A26 /* Zip.swift */; };
+		BFB5CF911A5F0C5000EAF7FE /* Either.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0501A2E898D006E25DF /* Either.framework */; };
+		BFB5CF921A5F0C5000EAF7FE /* Prelude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0511A2E898D006E25DF /* Prelude.framework */; };
+		BFB5CF931A5F0C5000EAF7FE /* Memo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D9A4D21A2ECA2D000D9C23 /* Memo.framework */; };
+		BFB5CF941A5F0C5000EAF7FE /* Box.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D470AC5F19E87B54003DA6C6 /* Box.framework */; };
+		BFB5CF961A5F0C5000EAF7FE /* Traversal.h in Headers */ = {isa = PBXBuildFile; fileRef = D461ED5A19E08F4500DEF5AD /* Traversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D408804C1A22677200BB9997 /* ReducerOfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408804B1A22677200BB9997 /* ReducerOfTests.swift */; };
 		D430A1711A02B3FE004D8A26 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A1701A02B3FE004D8A26 /* Map.swift */; };
 		D430A1771A06341E004D8A26 /* MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430A1761A06341E004D8A26 /* MapTests.swift */; };
@@ -51,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFB5CF9B1A5F0C5000EAF7FE /* Traversal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Traversal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D408804B1A22677200BB9997 /* ReducerOfTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReducerOfTests.swift; sourceTree = "<group>"; };
 		D430A1701A02B3FE004D8A26 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		D430A1761A06341E004D8A26 /* MapTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTests.swift; sourceTree = "<group>"; };
@@ -84,6 +101,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BFB5CF901A5F0C5000EAF7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CF911A5F0C5000EAF7FE /* Either.framework in Frameworks */,
+				BFB5CF921A5F0C5000EAF7FE /* Prelude.framework in Frameworks */,
+				BFB5CF931A5F0C5000EAF7FE /* Memo.framework in Frameworks */,
+				BFB5CF941A5F0C5000EAF7FE /* Box.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D461ED5119E08F4500DEF5AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +170,7 @@
 			children = (
 				D461ED5519E08F4500DEF5AD /* Traversal.framework */,
 				D461ED6019E08F4500DEF5AD /* TraversalTests.xctest */,
+				BFB5CF9B1A5F0C5000EAF7FE /* Traversal.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +226,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		BFB5CF951A5F0C5000EAF7FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CF961A5F0C5000EAF7FE /* Traversal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D461ED5219E08F4500DEF5AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,6 +245,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		BFB5CF831A5F0C5000EAF7FE /* Traversal-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB5CF981A5F0C5000EAF7FE /* Build configuration list for PBXNativeTarget "Traversal-iOS" */;
+			buildPhases = (
+				BFB5CF841A5F0C5000EAF7FE /* Sources */,
+				BFB5CF901A5F0C5000EAF7FE /* Frameworks */,
+				BFB5CF951A5F0C5000EAF7FE /* Headers */,
+				BFB5CF971A5F0C5000EAF7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Traversal-iOS";
+			productName = Traversal;
+			productReference = BFB5CF9B1A5F0C5000EAF7FE /* Traversal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D461ED5419E08F4500DEF5AD /* Traversal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D461ED6B19E08F4500DEF5AD /* Build configuration list for PBXNativeTarget "Traversal" */;
@@ -275,11 +330,19 @@
 			targets = (
 				D461ED5419E08F4500DEF5AD /* Traversal */,
 				D461ED5F19E08F4500DEF5AD /* TraversalTests */,
+				BFB5CF831A5F0C5000EAF7FE /* Traversal-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BFB5CF971A5F0C5000EAF7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D461ED5319E08F4500DEF5AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,6 +360,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BFB5CF841A5F0C5000EAF7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5CF851A5F0C5000EAF7FE /* ReducibleType.swift in Sources */,
+				BFB5CF861A5F0C5000EAF7FE /* Map.swift in Sources */,
+				BFB5CF871A5F0C5000EAF7FE /* Join.swift in Sources */,
+				BFB5CF881A5F0C5000EAF7FE /* FlattenMap.swift in Sources */,
+				BFB5CF891A5F0C5000EAF7FE /* Sequence.swift in Sources */,
+				BFB5CF8A1A5F0C5000EAF7FE /* Filter.swift in Sources */,
+				BFB5CF8B1A5F0C5000EAF7FE /* ReducerOf.swift in Sources */,
+				BFB5CF8C1A5F0C5000EAF7FE /* Concat.swift in Sources */,
+				BFB5CF8D1A5F0C5000EAF7FE /* Appending.swift in Sources */,
+				BFB5CF8E1A5F0C5000EAF7FE /* Stream.swift in Sources */,
+				BFB5CF8F1A5F0C5000EAF7FE /* Zip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D461ED5019E08F4500DEF5AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +424,45 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BFB5CF991A5F0C5000EAF7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Traversal/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Traversal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFB5CF9A1A5F0C5000EAF7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Traversal/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Traversal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D461ED6919E08F4500DEF5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,6 +616,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BFB5CF981A5F0C5000EAF7FE /* Build configuration list for PBXNativeTarget "Traversal-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB5CF991A5F0C5000EAF7FE /* Debug */,
+				BFB5CF9A1A5F0C5000EAF7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D461ED4F19E08F4500DEF5AD /* Build configuration list for PBXProject "Traversal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
